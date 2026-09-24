@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 6 - Student Registration Form</title>
+  
+</head>
+<body>
+  <h1>Student Registration Form</h1>
+  <p>This is a practice form. It has no server to save your answers. Do not type a real password.</p>
+  <form action="" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <p>Gender:</p>
+    <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+    <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+    <p>Interests:</p>
+    <input type="checkbox" id="coding" name="interest" value="coding"><label for="coding">Coding</label>
+    <input type="checkbox" id="music" name="interest" value="music"><label for="music">Music</label>
+    <input type="checkbox" id="sports" name="interest" value="sports"><label for="sports">Sports</label>
+    <p><label for="department">Department:</label>
+    <select id="department" name="department">
+      <option value="software-engineering">Software Engineering</option>
+      <option value="information-technology">Information Technology</option>
+      <option value="business">Business</option>
+    </select></p>
+    <p><label for="about">About You:</label><br>
+    <textarea id="about" name="about" rows="4" cols="40"></textarea></p>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
